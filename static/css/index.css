@@ -18,7 +18,7 @@ nav{
 }
 
 .nvr{
-  margin:none;
+  margin-left:5px;
   height:40px;
   text-align:center;
   width:80px;
@@ -35,4 +35,9 @@ nav{
   flex-direction:row;
   align-items:center;
   justify-content:center;
+}
+
+.navbar-collapse > a{
+  margin-left:5px;
+
 }

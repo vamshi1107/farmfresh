@@ -20,17 +20,25 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="flex-grow:0;">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link active" href="#">Products</a>
+        <a class="nav-link active" aria-current="page" href="/">Home</a>
+        <a class="nav-link active" href="/">Products</a>
         <a class="nav-link active nvr" href="#">
             <div class="log">
                 Login
+            </div>
+        </a>
+          <a class="nav-link active nvr" href="#">
+            <div class="log">
+                Signup
             </div>
         </a>
       </div>
     </div>
   </div>
 </nav>
-
+<div>
+    {% block content%}
+    {% endblock %}
+</div>
 </body>
 </html>
