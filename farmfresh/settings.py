@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'farmfresh.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd1396atferpdg5',
-        'HOST':'ec2-3-91-127-228.compute-1.amazonaws.com',
+        'NAME': 'd83sijnbhjos9s',
+        'HOST':'ec2-18-206-20-102.compute-1.amazonaws.com',
         'PORT':'5432',
-        'USER':'bfxwwyahkgcsoi',
-        'PASSWORD':'0c894c54d86fc008b0eb8f7f4d99748667a75c420cd95d0ce4b75b0ce2480527'
+        'USER':'ygwetxdwuagpvx',
+        'PASSWORD':'892d9384f4dfa1c09b1dc0b209a99abd4fdc68efd6f7676cba842722338e9ded'
     }
 }
 
