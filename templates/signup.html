@@ -1,0 +1,24 @@
+
+{% load static %}
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="{% static 'css/signup.css' %}">
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <form>
+        <H2>SIGNUP</H2>
+        <input type="text"id="Enterstate" class="fadeIn third" name="state" placeholder="state">
+          <input type="text"id="Entermobile" class="fadeIn third" name="mobile" placeholder="mobile">
+
+      <input type="text" id="name" class="fadeIn third" name="name" placeholder="name">
+      <input type="submit" class="fadeIn fourth" value="Register">
+    </form>
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Login</a>
+    </div>
+
+  </div>
+</div>

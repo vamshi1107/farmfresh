@@ -74,23 +74,23 @@ WSGI_APPLICATION = 'farmfresh.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd83sijnbhjos9s',
-        'HOST':'ec2-18-206-20-102.compute-1.amazonaws.com',
-        'PORT':'5432',
-        'USER':'ygwetxdwuagpvx',
-        'PASSWORD':'892d9384f4dfa1c09b1dc0b209a99abd4fdc68efd6f7676cba842722338e9ded'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'd83sijnbhjos9s',
+#         'HOST':'ec2-18-206-20-102.compute-1.amazonaws.com',
+#         'PORT':'5432',
+#         'USER':'ygwetxdwuagpvx',
+#         'PASSWORD':'892d9384f4dfa1c09b1dc0b209a99abd4fdc68efd6f7676cba842722338e9ded'
+#     }
+# }
 
 
 # Password validation
